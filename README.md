@@ -32,7 +32,7 @@ Para poder hacer uso de este proyecto:
 ```bash
   php artisan key:generate
 ```
-- Generar la clave de la aplicación
+- Generar la base de datos y sus migraciones
 
 ```bash
   php artisan migrate
