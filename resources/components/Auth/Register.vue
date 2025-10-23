@@ -20,7 +20,7 @@ async function submit() {
         router.push({ name: 'login' });
         console.log('Registro exitoso');
         console.log(data);
-        alert('Registro exitoso, por favor inicia sesión.');
+        alert('Registro exitoso, Bienvenido ' + name.value);
     } catch (e) {
         error.value = e.response?.data?.message ?? 'Error al registrarse';
     } finally {

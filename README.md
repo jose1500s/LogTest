@@ -3,17 +3,15 @@
 
 Pagina de inicio de sesión y registro con Laravel Sanctum y VueJs
 Necesitas tener instalado:
-- Php
-- Node.js
-- Tener un servicio de MySQL corriendo (XAMPP, Laragon)
+- Laragon (de preferencia, ya que al instalarlo te instala tambien php,node,composer, etc) que son necesarios para este proyecto y con este se podra abrir una terminal que ya tiene instalado todo eso (de otra forma hay que instalar estos de manera manual)
 ## Instalación
 
 Para poder hacer uso de este proyecto:
-- Clonar/Descargar el proyecto en tu maquina local
+- Clonar/Descargar el proyecto en la siguiente ruta: "C:\laragon\www"
 ```bash
   git clone https://github.com/jose1500s/LogTest
 ```
-- navegar hacia la raiz del proyecto y instalar las dependencias del backend
+- Abrir una terminal de laragon (al abrir laragon hay un boton que dice "Terminal")
 ```bash
   cd LogTest
   composer install
@@ -32,7 +30,7 @@ Para poder hacer uso de este proyecto:
 ```bash
   php artisan key:generate
 ```
-- Generar la base de datos y sus migraciones
+- Generar la base de datos y sus migraciones (te preguntara si deseas crear la BD logtest, tienes que decir que si)
 
 ```bash
   php artisan migrate
